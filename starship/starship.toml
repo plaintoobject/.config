@@ -1,0 +1,32 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "$username $directory$git_branch$git_status $character"
+
+palette = 'mono'
+
+[palettes.mono]
+light = '#cdcdcd'
+dim = '#878787'
+error = '#d8647e'
+
+[username]
+show_always = true
+style_user = "bold light"
+format = "[$user]($style)"
+
+[directory]
+style = "bold dim"
+format = "[$path]($style)"
+truncation_length = 2
+
+[git_branch]
+style = "dim"
+format = " [$branch]($style)"
+
+[git_status]
+style = "dim"
+format = '[$all_status]($style)'
+
+[character]
+success_symbol = "[\\$](bold dim)"
+error_symbol = "[\\$](bold error)"
