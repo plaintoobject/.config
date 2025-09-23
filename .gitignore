@@ -9,3 +9,4 @@ nvim/lazy-lock.json
 nvim/spell
 .zsh_history.LOCK
 *.log
+go/telemetry/local/*
