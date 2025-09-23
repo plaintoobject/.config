@@ -1,0 +1,12 @@
+# yay.txt
+# -----------------------------------------
+paru
+
+nerd-fonts-jetbrains-mono
+ttf-iosevka-nerd
+
+alacritty-git
+
+zsh-autosuggestions-git
+zsh-syntax-highlighting
+fzf-tab

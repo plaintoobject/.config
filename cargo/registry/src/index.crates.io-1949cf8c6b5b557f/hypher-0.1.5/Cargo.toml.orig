@@ -1,0 +1,94 @@
+[package]
+name = "hypher"
+version = "0.1.5"
+authors = ["Laurenz <laurmaedje@gmail.com>"]
+edition = "2021"
+description = "hypher separates words into syllables."
+repository = "https://github.com/typst/hypher"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+categories = ["text-processing", "internationalization", "no-std"]
+keywords = ["hyphenation", "syllables"]
+exclude = ["patterns/*"]
+
+[features]
+default = ["alloc", "full"]
+alloc = []
+full = [
+    "afrikaans",
+    "albanian",
+    "belarusian",
+    "bulgarian",
+    "catalan",
+    "croatian",
+    "czech",
+    "danish",
+    "dutch",
+    "english",
+    "estonian",
+    "finnish",
+    "french",
+    "georgian",
+    "german",
+    "greek",
+    "hungarian",
+    "icelandic",
+    "italian",
+    "kurmanji",
+    "latin",
+    "lithuanian",
+    "mongolian",
+    "norwegian",
+    "polish",
+    "portuguese",
+    "russian",
+    "serbian",
+    "slovak",
+    "slovenian",
+    "spanish",
+    "swedish",
+    "turkish",
+    "turkmen",
+    "ukrainian",
+]
+afrikaans = []
+albanian = []
+belarusian = []
+bulgarian = []
+catalan = []
+croatian = []
+czech = []
+danish = []
+dutch = []
+english = []
+estonian = []
+finnish = []
+french = []
+georgian = []
+german = []
+greek = []
+hungarian = []
+icelandic = []
+italian = []
+kurmanji = []
+latin = []
+lithuanian = []
+mongolian = []
+norwegian = []
+polish = []
+portuguese = []
+russian = []
+serbian = []
+slovak = []
+slovenian = []
+spanish = []
+swedish = []
+turkish = []
+turkmen = []
+ukrainian = []
+
+[workspace]
+members = ["bench"]
+
+[profile.dev.build-override]
+opt-level = 1
